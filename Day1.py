@@ -58,4 +58,19 @@ match value :
     print ( Num1/Num2)
 
 
+# SYNTEX OF FOR LOOP
+# Method 1 for i in range (start , end , gap)
+for i in range (1 , 10 , 2 ):
+     print (i)
+print ("\n")
+# Method 2 for i in range (start , end )
+for i in range (1 , 10):
+  print (i)
+print("\n")
+# Method 3 for i in range (end) , {here python take 0 as a starting point}
+for i in range (10):
+  print (i)
+
+
+
 
