@@ -61,7 +61,7 @@ print("Number of input you want to check :")
 N = int(input("ENTER "))
 for i in range (0 , N):
   print ("Enter number",i+1 )
-  nums.append(input("Enter: "))
+  nums.append(int(input("Enter: ")))
 for i in range (0 , N):
   if int(nums[i]) < 0 :
     negative = negative + 1
